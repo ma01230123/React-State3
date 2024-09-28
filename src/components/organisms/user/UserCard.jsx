@@ -6,7 +6,6 @@ import {memo} from 'react';
 
 
 export const UserCard = memo((props) => {
-  console.log('UserCard');
   const {user} = props;
   return(
       <Card>
