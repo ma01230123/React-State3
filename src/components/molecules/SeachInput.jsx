@@ -6,7 +6,6 @@ import {memo} from 'react';
 
 
 export const SeachInput = memo(() => {
-  console.log('SeachInput');
   return(
       <SContainer>
         <Input placeholder="検索条件を入力"/>
